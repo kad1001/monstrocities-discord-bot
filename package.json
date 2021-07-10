@@ -1,0 +1,27 @@
+{
+  "name": "monstrocities-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for MonstroCities NFTs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kad1001/monstrocities-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kad1001/monstrocities-discord-bot/issues"
+  },
+  "homepage": "https://github.com/kad1001/monstrocities-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0"
+  }
+}
