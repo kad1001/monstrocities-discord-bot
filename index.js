@@ -8,8 +8,6 @@ client.cooldowns = new Discord.Collection();
 
 const commandFolders = fs.readdirSync('./commands');
 
-// This will be replaced!!
-// const data = require('./data/mock');
 
 for (const folder of commandFolders) {
 	const commandFiles = fs.readdirSync(`./commands/${folder}`).filter(file => file.endsWith('.js'));
